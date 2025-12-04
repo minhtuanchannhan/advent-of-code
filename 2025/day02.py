@@ -22,7 +22,7 @@ def iv2(n):
   for i in range(1, le):
     if le % i == 0 and st == st[:i] * (le // i):
       return True
-      
+
   return False
 
 def part1(r):
@@ -31,7 +31,7 @@ def part1(r):
     for n in range(st, ed + 1):
       if iv1(n):
         tt += n
-  
+
   return tt
 
 def part2(r):
@@ -40,7 +40,7 @@ def part2(r):
     for n in range(st, ed + 1):
       if iv2(n):
         tt += n
-  
+
   return tt
 
 p1 = part1(r)

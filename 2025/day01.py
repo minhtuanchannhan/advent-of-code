@@ -7,7 +7,7 @@ with open(fp, 'r') as f:
 
 def part1(r):
   di = 50
-  c = 0    
+  c = 0
 
   for m in r:
       i = m[0]
@@ -25,7 +25,7 @@ def part1(r):
 
 def part2(r):
   di = 50
-  c = 0    
+  c = 0
 
   for m in r:
       i = m[0]
